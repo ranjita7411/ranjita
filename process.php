@@ -12,11 +12,11 @@
 
     <h3>Your Submitted Information:</h3>
 
-    <p><strong>Ranjita j b:</strong> <?php echo $_POST['fullname']; ?></p>
-    <p><strong>ranjita74112gmail.com:</strong> <?php echo $_POST['email']; ?></p>
-    <p><strong>7411291554:</strong> <?php echo $_POST['phone']; ?></p>
-    <p><strong>Female:</strong> <?php echo $_POST['gender']; ?></p>
-    <p><strong>Haveri:</strong> <?php echo nl2br($_POST['address']); ?></p>
+    <p><strong>Full Name:</strong> <?php echo $_POST['fullname']; ?></p>
+    <p><strong>Email:</strong> <?php echo $_POST['email']; ?></p>
+    <p><strong>Phone Number:</strong> <?php echo $_POST['phone']; ?></p>
+    <p><strong>Gender:</strong> <?php echo $_POST['gender']; ?></p>
+    <p><strong>Address:</strong> <?php echo nl2br($_POST['address']); ?></p>
 
 </div>
 
